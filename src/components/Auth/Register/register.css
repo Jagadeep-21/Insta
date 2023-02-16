@@ -1,61 +1,73 @@
-.login{
+.login {
     margin: 0px;
     padding: 0px;
+    padding-top: 3%;
     background-color: #fff;
 }
-.loginTop{
-    align-items: center;
-}
-.card{
+.card {
     max-width: 450px;
-    margin:auto;
-    margin-top: 3%;
+    margin: auto;
+    margin-top: 1%;
     align-items: center;
     box-shadow: rgb(179, 179, 179);
-    -webkit-box-shadow: 0px 4px 17px 5px rgba(0,0,0,0.39);
--moz-box-shadow: 0px 4px 17px 5px rgba(0,0,0,0.39);
-box-shadow: 0px 4px 17px 5px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 6px 7px 5px -2px rgba(0,0,0,0.39);
+    -moz-box-shadow: 6px 7px 5px -2px rgba(0,0,0,0.39);
+    box-shadow: 6px 7px 5px -2px rgba(0,0,0,0.39);
 }
-.brandName{
+ .loginBottom{
+    max-width: 450px;
+    margin: auto;
+    margin-top: 3%;
+    align-items: center;
+    /* box-shadow: rgb(179, 179, 179); */
+}
+
+.brandName {
     font-weight: 700;
     font-style: italic;
     font-size: x-large;
     margin: auto;
 }
-.loginForm{
+
+.registerForm {
     display: flex;
     flex-direction: column;
     margin-bottom: 10%;
     align-items: center;
+    
 }
-.inputItem{
+
+.inputItem {
     margin-bottom: 10%;
     display: flex;
     flex-direction: column;
     flex-grow: 10%;
 
 }
-.inputItem .input{
+
+.inputItem .input {
     border: 2px solid #3f3f3f;
-    border-radius:5px ;
+    border-radius: 5px;
     margin-top: 5%;
 }
-.inputItem .input:focus{
+
+.inputItem .input:focus {
     outline: none;
     padding-left: 2%;
 }
 
-.hrTag{
-    height: 3% ;
+.hrTag {
+    height: 3%;
     width: 80%;
 }
- .loginBottom{
+
+.loginBottom {
     display: flex;
     width: 100%;
     justify-content: center;
     margin-top: 3%;
 }
-.registerLink{
-    font-size:1.2vw;
+.registerLink {
+    font-size: 1.2vw;
     margin-left: 20%;
 }

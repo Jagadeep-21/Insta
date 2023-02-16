@@ -1,0 +1,13 @@
+.leftbar{
+    flex:2;
+
+}
+.leftbarWrapper{
+    margin: 2%;
+    
+
+}
+.listItems{
+    border-bottom: 0.02em solid #000;
+    margin-bottom: 1%;
+}
